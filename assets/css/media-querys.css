@@ -1,0 +1,60 @@
+@media screen and (max-width: 900px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    div.header {
+        width: 99%;
+        justify-content: space-around;
+    }
+
+    div.header button#btn-start, div.header button#btn-stop {
+        font-size: 1.2rem;
+        padding: 2px 5px;
+        margin: 0;
+    }
+
+    div.header div.shooting {
+        font-size: 1rem;
+    }
+
+    div.header div.box-colors {
+        border: none;
+    }
+
+    div.one {
+        width: 320px;
+        height: 320px;
+    }
+
+    div.two {
+        width: 280px;
+        height: 280px;
+    }
+
+    div.three {
+        width: 220px;
+        height: 220px;
+    }
+
+    div.four {
+        width: 160px;
+        height: 160px;
+    }
+
+    div.five {
+        width: 100px;
+        height: 100px;
+    }
+
+    div.six {
+        width: 40px;
+        height: 40px;
+    }
+}
