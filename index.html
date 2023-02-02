@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>target-shooting</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="icon" href="assets/img/target.png" type="x-icon" sizes="18x18">
+</head>
+<body>
+
+    <div class="stop-game">
+        <button id="btn-close-stop">Close</button>
+    </div>
+
+    <div class="end-game">
+        <button id="btn-restart">Restart</button>
+        <div class="box-timer">
+            <h3>Your time was: <span id="was-time"></span></h3>
+        </div>
+    </div>
+
+    <div class="header"> 
+        <button id="btn-start">Start</button>
+        <button id="btn-stop">Stop</button>
+        <div class="shooting">
+            Number Shooting:<span id="number-shoot">0</span>
+        </div>
+        <div class="box-colors"></div>
+        <span id="r-timer">Timer: <span id="timer">0s</span></span>
+    </div>
+
+    <div class="container">
+        <div class="target one" value="5" color="red">
+            <div class="target two" value="6" color="blue">
+                <div class="target three" value="7" color="yellow">
+                    <div class="target four" value="8" color="green">
+                        <div class="target five" value="9" color="black">
+                            <div class="target six" value="10" color="white"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
